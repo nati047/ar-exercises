@@ -7,6 +7,7 @@ puts "----------"
 
 class Stores < ActiveRecord::Base
 end
+
 store_1 = Stores.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
 
 store_2 = Stores.new
