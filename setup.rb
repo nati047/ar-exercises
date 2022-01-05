@@ -33,7 +33,7 @@ ActiveRecord::Schema.define do
     t.timestamps null: false
   end
   create_table :employees do |table|
-    table.references :store
+    table.references :stores
     table.column :first_name, :string
     table.column :last_name, :string
     table.column :hourly_rate, :integer
